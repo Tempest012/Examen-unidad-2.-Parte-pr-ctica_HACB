@@ -1,0 +1,23 @@
+﻿body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:aqua;
+}
+
+
+button{
+    font-size:xx-large;
+    background-color:unset;
+    padding:1rem;
+    transition:10ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1,1);
+}
+
+.escondido{
+    display:none !important;
+}
+
