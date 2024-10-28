@@ -1,8 +1,17 @@
 ﻿body {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eff9ff;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#foto,
+#foto img {
+    height: 500px;
 }
 
 button{
@@ -16,7 +25,7 @@ button:hover{
     transform: scale(1,1);
 }
 
-.escondido{
-    display:none !important;
+.escondido {
+    display: none;
 }
 
